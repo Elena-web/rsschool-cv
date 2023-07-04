@@ -1,0 +1,14 @@
+html {
+    height: 100%;
+    font-size: 10px;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #9aedea;
+    color: #ffffff;
+  }
+
+h3 {
+  font-size: 14px;
+  color: black;
+}
