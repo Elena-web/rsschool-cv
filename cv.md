@@ -44,8 +44,8 @@ console.log(arr2);
   + RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ***
 
-#### Experience: 
-Freelance (since 2022г.) 
+#### Experience:
+Freelance (since 2022г.)
 ***
 #### Languages:
 + English - Intermediate
