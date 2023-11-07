@@ -1,0 +1,264 @@
+html {
+    height: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #0f0e0e;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 100px 0 0 0;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    border-bottom: #000;
+  }
+
+h3 {
+  font-size: 14px;
+  color: black;
+}
+
+h5 {
+  margin: 0 0 15px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1190px;
+  box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+.wpapper__row {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+  margin: 0;
+}
+
+.column-content {
+  padding: 30px 40px 30px 40px;
+  width: 100%;
+  background-color: #f5eacfd8;
+}
+
+/* Header */
+
+header {
+  height: 250px;
+}
+
+.nav {
+  display: flex;
+  height: 20%;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 100%;align-items: center;
+  justify-content: flex-end;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+
+.nav__list li {
+  margin-left: 10px;
+}
+
+.nav__list li a {
+  border-bottom: 2px solid #000;
+}
+
+.nav__list li a:hover {
+  border-bottom: none;
+  color: rgb(243, 20, 65);
+  border-bottom: 2px solid rgb(243, 20, 65);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* About */
+
+.about {
+  margin-bottom: 50px;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Education, Expirience*/
+
+.education, .expirience {
+  margin-bottom: 50px;
+}
+
+.education__row, .expirience__row {
+  display: flex;
+  margin-top: 30px;
+}
+
+.education__date, .expirience__date {
+  width: 120px;
+  margin-right: 25px;
+}
+
+.education__desc p {
+  font-size: 16px;
+}
+
+.expirience__list li {
+  margin-top: 10px;
+}
+
+.expirience__list a {
+  color: rgb(243, 20, 65);
+  font-weight: 800;
+}
+
+.expirience__list a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Code-example */
+
+.code-example {
+  margin-bottom: 50px;
+}
+
+pre {
+  background-color: rgb(237, 238, 241);
+}
+
+/*Aside*/
+
+aside {
+  width: 30%;
+  background-color: rgb(216, 216, 218);
+}
+
+.sidebar__wrapper {
+  margin: 0 auto;
+  padding: 30px 30px 30px 50px;
+}
+
+.photo {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto 25px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* Contacts*/
+
+.contacts {
+  margin-bottom: 50px;
+}
+
+.contacts__row {
+  margin-top: 10px;
+}
+
+.contacts li {
+  font-weight: 500;
+}
+
+.contacts__list a {
+  font-weight: 800;
+}
+
+.contacts__list a:hover {
+  color: rgb(185, 6, 42);
+}
+
+/* Skills */
+
+.skills {
+  margin-bottom: 50px;
+}
+
+.skills li {
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* Languages */
+
+.languages {
+  margin-bottom: 50px;
+}
+
+.languages__list li {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.footer__img {
+  width: 120px;
+  height: 50px;
+}
+
+.footer__github {
+  display: flex;
+  align-items: center;
+}
+
+.footer__github img {
+  width: 45px;
+  height: 45px;
+  margin-right: 5px;
+}
