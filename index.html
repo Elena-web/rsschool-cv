@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wpapper__row">
+            <aside class="sidebar">
+                <div class="sidebar__wrapper">
+                    <div class="photo">
+                        <img src="./img/photo.jpg" alt="Elena Pavlovich">
+                    </div>
+                    <section class="contacts">
+                        <h2>Contact me</h2>
+                        <ul class="contacts__list" id="contacts">
+                            <li class="contacts__row">Phone: <a href="tel:+375298301280">+375298301280</a></li>
+                            <li class="contacts__row">E-mail: <a href="email:elena-pavlovichh@mail.ru">elena-pavlovichh@mail.ru</a></li>
+                            <li class="contacts__row">Telegram: <a href="#">@lena_pavlovich</a></li>
+                            <li class="contacts__row">Linkedin: <a href="https://www.linkedin.com/in/elena-pavlovich-0a3491232/" class="contacts__link">Elena Pavlovich</a></li>
+                            <li class="contacts__row">GitHub: <a href="https://github.com/Elena-web" class="contacts__link">Elena-web</a></li>
+                            <li class="contacts__row">Location: Minsk, Belarus</li>
+                        </ul>
+                    </section>
+                    <section class="skills" id="skills">
+                        <h2>Pro skills</h2>
+                        <ul class="skills__list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Sass</li>
+                            <li>BEM</li>
+                            <li>Adobe Photoshop, Figma</li>
+                            <li>JS Basic</li>
+                            <li>Git</li>
+                            <li>React</li>
+                            <li>Express</li>
+                        </ul>
+                    </section>
+                    <section class="languages">
+                        <h2>Foreign languages</h2>
+                        <ul class="languages__list">
+                            <li>English (B1)</li>
+                            <li>French (B1)</li>
+                            <li>Russian (Native)</li>
+                        </ul>
+                    </section>
+                </div>
+            </aside>
+        <div class="column-content">
+        <header>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about">About me</a></li>
+                    <li class="nav__item"><a href="#education">Education</a></li>
+                    <li class="nav__item"><a href="#expirience">Expirience</a></li>
+                    <li class="nav__item"><a href="#skills">Skills</a></li>
+                    <li class="nav__item"><a href="#contacts">Contacts</a></li>
+                    <li class="nav__item"><a href="#code">Code</a></li>
+                </ul>
+            </nav>
+            <div class="title">
+                <h1>Elena Pavlovich</h1>
+                <p>Front-End Developer</p>
+            </div>
+        </header>
+        <main class="main">
+            <div class="content">
+                <section class="about" id="about">
+                    <h2>About me</h2>
+                    <p>I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
+                </section>
+                <section class="education" id="education">
+                    <h2>Education</h2>
+                    <div class="education__row">
+                        <div class="education__date">
+                            <p>2007 - 2012</p>
+                        </div>
+                        <div class="education__desc">
+                            <h5>Mozyr State Pedagogical University named after I.P. Shamyakin</h5>
+                            <p>The faculty of engineering and education</p>
+                        </div>
+                    </div>
+                    <div class="education__row">
+                        <div class="education__date">
+                            <p>2022</p>
+                        </div>
+                        <div class="education__desc">
+                            <h5>WebCademy</h5>
+                            <p>Website layout HTML5&amp;CSS3</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="expirience" id="expirience">
+                    <h2>Expirience</h2>
+                    <div class="expirience__row">
+                        <div class="expirience__date">
+                            <p>Since 2022</p>
+                        </div>
+                        <div class="expirience__desc">
+                            <h5>Freelancer</h5>
+                            <p>Examples of my works:</p>
+                            <ul class="expirience__list">
+                                <li><a href="https://elena-web.github.io/furniture/">The shop of furniture</a></li>
+                                <li><a href="https://elena-web.github.io/rent/">Dubai Realty</a></li>
+                                <li><a href="https://elena-web.github.io/food/">Food delivery</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="expirience__row">
+                        <div class="expirience__date">
+                            <p>2014 - 2022</p>
+                        </div>
+                        <div class="expirience__desc">
+                            <h5>Private business owner</h5>
+                        </div>
+                    </div>
+                    <div class="expirience__row">
+                        <div class="expirience__date">
+                            <p>2010 - 2014</p>
+                        </div>
+                        <div class="expirience__desc">
+                            <h5>Sistem House Company</h5>
+                            <p>Accountant</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="code-example" id="code">
+                    <h2>Code example:</h2>
+                    <p>Let's make a parameter that will be applied to the corresponding array element.</p>
+                        <pre>
+                            <code>
+                                function each(arr, callback) {
+                                    let result = [];
+                                    for (let elem of arr) {
+                                        result.push( callback(elem) );
+                                    }
+                                    return result;
+                                }
+                            </code>
+                        </pre>
+                </section>
+            </div>
+        </main>
+        </div>
+        </div>
+        <footer class="footer">
+            <a href="https://github.com/Elena-web" class="footer__github">
+                <img src="./img/icon.svg" alt="GitHub">
+                <p>Visit my GitHub</p>
+                </a>
+            <p>© 2024</p>
+            <a href="https://rs.school/courses/javascript-ru" >
+                <img src="./img/rsschool.png" class="footer__img" alt="Rsschool">
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
